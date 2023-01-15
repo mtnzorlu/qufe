@@ -15,10 +15,10 @@ github_username:
 youtube_username: 
 
 image:
-  kapak-0: /assets/img/i-0.jpg
-  kapak-1: /assets/img/i-1.jpg
-  kapak-2: /assets/img/i-2.jpg
-  kapak-3: /assets/img/i-3.jpg
+  kapak-0: assets/img/i-0.jpg
+  kapak-1: assets/img/i-1.jpg
+  kapak-2: assets/img/i-2.jpg
+  kapak-3: assets/img/i-3.jpg
 
 sass:
     style: compressed
