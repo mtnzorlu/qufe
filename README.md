@@ -10,6 +10,10 @@ Add your Jekyll site into gemfile:
 
     gem 'jekyll-theme-qufe'
 
+In the _config.yml file enter:
+
+    theme: jekyll-theme-qufe
+
 And execute:
 
     bundle
