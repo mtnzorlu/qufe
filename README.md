@@ -2,6 +2,8 @@
 
 A blog theme with a personalized feel.
 
+![screenshot](/assets/img/screenshot.png)
+
 ## Installation
 
 Add your Jekyll site into gemfile:
