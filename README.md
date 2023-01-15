@@ -22,7 +22,7 @@ Edit or change some parts of the _config_yml file. For example, enter your own s
 
 To set the cover photo, modify the head.html file:
 
-    <img src="{{ site.image.kapak-1 }}" alt="kapak">
+    <img src="{{ site.baseurl }}/{{ site.image.kapak-1 }}" alt="kapak">
 
 There are 4 options:
 
