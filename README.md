@@ -14,6 +14,12 @@ And execute:
 
     bundle
 
+## Note: 
+
+If your site is in the root directory, the baseurl must be empty. Replace _config.yml:
+
+    baseurl: ""
+
 
 Edit or change some parts of the _config_yml file. For example, enter your own social media usernames in the relevant lines.
 
