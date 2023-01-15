@@ -4,7 +4,7 @@ email: metinzorlu@msn.com
 description: Hello, welcome to my site! My areas of interest are theme making, graphic design and website development.
 footer_desc: Personal web site
 
-baseurl: "/qufe" # The subdirectory where your site is located. If not, leave it blank.
+baseurl: "" # The subdirectory where your site is located. If not, leave it blank.
 url: "" # The address where your site is located.
 paginate: 5
 
