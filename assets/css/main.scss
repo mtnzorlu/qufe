@@ -1,0 +1,94 @@
+---
+---
+body {width: 1100px; margin: 0 auto; padding: 0; text-decoration: none; box-sizing: border-box; background: #b9bcc5; font-family: Roboto, serif; font-size: 14px;}
+h1, h2, h3, h4, h5, h6{color: #545444;} a{text-decoration: none; color: #3f5b8f; font-size: 16px;} a:hover{color: #000000;} 
+h2 {font-size: 1rem;}
+h1{font-size: 17px; font-weight: 500; color: #4e4a53;} h1 a{color: #4e4a53;} h1 a:hover{color: #44f;}
+header{
+
+.head{
+
+    width: 100%; background-color: #efefee; padding: 3px 0; border-radius: 8px 8px 0 0; border-top: 2px solid #ffffff; 
+    display: flex; justify-content: center;
+
+    ul{padding: 0;}
+    ul li {margin: 0 4px; list-style: none; border: 1px solid #dfdfe2; padding: 5px 0; display: inline-block; background-color: #fafafa; border-radius: 5px;} 
+    ul li a {color: #454545; font-size: 14px; padding: 7px 15px;} ul li a:hover{color: #4d4dff;}
+
+}
+.cover{width: 100%; height: 216px; 
+    margin: 11px 0; display: flex; justify-content: center; align-items: center; 
+ img {border-radius: 8px; border: 2px solid #ffffff; width: 1100px; height: 216px; box-sizing: border-box;}
+}
+}
+.container {
+    background-color: #efefee; display: grid; grid-template-columns: 20% 1fr; 
+    border-top: 1px solid #dddddd;
+
+
+        #nav-menu {
+        padding: 15px 0; margin-left: 10px;
+
+        .profile {text-align: center;
+                
+            span{font-size: 11px; text-align: center; color: #727272;} h2 {text-align: center; font-weight: normal;}
+            img{width: 145px; height: 145px; border-radius: 50%; border: 2px solid #ffffff; box-shadow: 0 2px 5px #bbb;} 
+            a{color: #3a4041;} a:hover{color: #206770;}
+        }
+
+        .social {display: grid; margin-top: 11px; grid-template-columns: auto;
+
+        > div {padding: 5px; margin: 2px; border: 1px solid #dbdbdb; background-color: #fafafa; text-align: center; border-radius: 16px;} 
+
+        a {font-size: 12px; color: #333333; text-align: center;} a:hover {color: #000;} 
+
+
+        }
+        }
+
+.main-body { 
+
+    .main{
+
+    padding: 14px; font-size: 16px; line-height: 22px; color: #545444;
+
+    .content{border: 1px solid #dddddd; padding: 14px 22px; border-radius: 8px; background-color: #fafafa;
+    
+    .card-action{padding: 12px 5px; border-top: 1px dotted #aaaaaa;}
+
+    img {max-width: 750px;}
+
+
+    .date{background-color: #f0ffff5b; padding: 5px; border-top: 1px solid #cecece; font-size: 11px; color: #a5a5a5; 
+    
+    a{color:#838383; font-size: 11px;} a:hover{color: #000;}}
+    
+    }
+
+    .pagination{padding: 3px;
+
+    a{color: #444; padding: 6px 10px; border-radius: 50%; border: 1px solid #ddd; font-size: 12px;} 
+    a:hover{color: #000; border: 1px solid #aaa;}
+
+    .act{border-radius: 50%; padding: 5px 10px; color: #7979ee; border: 1px solid #7979ee; margin: 0 3px;}
+
+    
+    .soluk{color: #aaa; padding: 0 7px;}
+    }
+        }
+    }
+}
+@media screen and (max-device-width: 1100px) {
+    body{width: 100%;} .container{display: block; #nav-menu{display: none;}}
+    header .cover{margin: 2px 0; height: auto; .cover img {width: 100%; height: auto;}} .content img {width: 100%;}
+}
+@media screen and (max-device-width: 390px) {
+    header .head ul li a {padding: 7px; font-size: 12px;} .container .main-body .main p{font-size: 14px;} 
+
+}
+pre{background-color: #f8f8f1; color: #333333; border: 1px solid #ddd; padding: 8px 10px; font-size: 13px;}
+code{padding: 0 4px; font-size: 12px; white-space: pre-wrap;}
+blockquote{padding: 0 10px; background-color: #efefee; border: 1px solid #ddd; margin: 0;}
+footer{background-color: #e2e2e2; text-align: center; padding: 8px; border-top: 1px solid #cccccc; border-bottom: 2px solid #a1a1a1; color: #838383;} 
+
+
