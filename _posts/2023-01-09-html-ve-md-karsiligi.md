@@ -7,7 +7,7 @@ categories: Genel
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maiores molestiae fugit saepe nisi ipsam accusantium perferendis, facere, aspernatur delectus tenetur expedita eligendi consequuntur odit, reprehenderit illum voluptas eius. Non.
 
-![image](/assets/img/screenshot.png)
+![image]({{ site.baseurl }}/assets/img/screenshot.png)
 
 
 ## h2 falan 

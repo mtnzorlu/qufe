@@ -6,6 +6,31 @@ A blog theme with a personalized feel.
 
 ## Installation
 
+Download files:
+
+    git clone https://github.com/mtnzorlu/qufe.git
+
+
+Go to directory with terminal command:
+
+    cd qufe
+
+
+Build the Site:
+
+    jekyll build
+
+Run:
+
+    bundle exec jekyll serve
+
+And open:
+
+http://127.0.0.1:4000/qufe/
+
+
+## Gem Based
+
 Add your Jekyll site into gemfile:
 
     gem 'jekyll-theme-qufe'
