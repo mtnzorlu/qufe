@@ -44,7 +44,7 @@ Change the index.markdown file to index.html. It includes:
 Add your Jekyll site into gemfile:
     
     gem 'webrick'
-    gem 'jekyll-theme-qufe', '~> 0.1.1'
+    gem 'jekyll-theme-qufe', '~> 0.2.0'
 
 And change:
 
