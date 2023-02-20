@@ -2,7 +2,9 @@
 
 A blog theme with a personalized feel.
 
-![screenshot](/assets/img/screenshot.png)
+![screenshot](/assets/img/ss1.png)
+
+![screenshot](/assets/img/ss2.png)
 
 ## Installation
 
@@ -31,17 +33,45 @@ http://127.0.0.1:4000/qufe/
 
 ## Gem Based
 
-Add your Jekyll site into gemfile:
+Change the index.markdown file to index.html. It includes:
 
-    gem 'jekyll-theme-qufe'
+    ---
+    layout: main
+    ---
+
+    {{ content }}
+
+Add your Jekyll site into gemfile:
+    
+    gem 'webrick'
+    gem 'jekyll-theme-qufe', '~> 0.1.1'
+
+And change:
+
+    group :jekyll_plugins do
+    gem "jekyll-feed", "~> 0.12"
+    gem "jekyll-paginate"
+    end
 
 In the _config.yml file enter:
 
+    paginate: 5
     theme: jekyll-theme-qufe
+    plugins:
+    - jekyll-feed
+    - jekyll-paginate
 
 And execute:
 
     bundle
+
+Run:
+
+    bundle exec jekyll serve
+
+And open:
+
+http://127.0.0.1:4000
 
 ## Note: 
 
@@ -51,7 +81,6 @@ If your site is in the root directory, the baseurl must be empty. Replace _confi
 
 
 Edit or change some parts of the _config_yml file. For example, enter your own social media usernames in the relevant lines.
-
 
     twitter_username: your_name
 

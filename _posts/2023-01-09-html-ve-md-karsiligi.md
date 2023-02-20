@@ -7,7 +7,7 @@ categories: Genel
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maiores molestiae fugit saepe nisi ipsam accusantium perferendis, facere, aspernatur delectus tenetur expedita eligendi consequuntur odit, reprehenderit illum voluptas eius. Non.
 
-![image]({{ site.baseurl }}/assets/img/screenshot.png)
+![image]({{ site.baseurl }}/assets/img/ss1.png)
 
 
 ## h2 falan 
@@ -31,6 +31,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maiores molesti
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maiores molestiae fugit saepe nisi ipsam accusantium perferendis, facere, aspernatur delectus tenetur expedita eligendi consequuntur odit, reprehenderit illum voluptas eius. Non.
 
+![image]({{ site.baseurl }}/assets/img/ss2.png)
 
 #### h1 falan 
 

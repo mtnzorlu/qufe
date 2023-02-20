@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-qufe"
-  spec.version       = "0.1.1"
+  spec.version       = "0.2.0"
   spec.authors       = ["Metin Zorlu"]
   spec.email         = ["metinzorlu@msn.com"]
 
-  spec.summary       = "Personal oriented blog theme"
+  spec.summary       = "Personal oriented light or dark mode optional blog theme"
   spec.homepage      = "https://github.com/mtnzorlu/qufe"
   spec.license       = "MIT"
 
